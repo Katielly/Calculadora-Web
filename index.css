@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://s2.glbimg.com/hW6PWETmdLBIllrVuecpKvufiHM=/0x0:600x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/W/H/DhBMAwTmutuvPLaqdZJw/nazare.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.calculadora{
+    background-color: #a9a9a9;
+    padding: 2px;
+    width: 300px;
+    height: 420px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.tela{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9px;
+    width: 250px;
+    height: 50px;
+    background-color: #d1d1d1;
+    padding-top: 12px;
+    margin: 6px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    text-align: end;
+    font-size: 30px;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.button{
+    background-color: #d1d1d1;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    
+}
+
+.button:hover{
+    background-color: #6b5f5f;
+
+}
