@@ -4,6 +4,10 @@ body {
     background-size: cover;
 }
 
+button{
+    border-style: none;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -12,18 +16,20 @@ body {
 }
 
 .calculadora{
-    background-color: #a9a9a9;
+    position: absolute; /* */
+    top: 50%; /* */
+    left: 50%; /* */
+    transform: translate(-50%, -50%); /* */
+    background-color: rgba(141, 141, 141, 0.9); /**/
     padding: 2px;
     width: 300px;
     height: 420px;
-    border-style: solid;
-    border-width: 2px;
+    border-style: none;
     border-radius: 20px;
 }
 
 .tela{
-    border-style: solid;
-    border-width: 2px;
+    border-style: none;
     border-radius: 9px;
     width: 250px;
     height: 50px;
@@ -54,5 +60,8 @@ body {
 
 .button:hover{
     background-color: #6b5f5f;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d1d1d1;
 
 }
